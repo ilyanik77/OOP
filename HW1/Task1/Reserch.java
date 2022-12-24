@@ -26,6 +26,7 @@ public class Reserch {
         Scanner in = new Scanner(System.in);
         int age = in.nextInt();
         System.out.println("Список людей,которые младше " + age + ":");
+        in.close();
 
         for (Node t : tree) {
 
