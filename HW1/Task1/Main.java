@@ -18,5 +18,7 @@ public class Main {
 
         System.out.println(new Reserch(gt).spend(vasya,
                 Relationship.parent));
+
+        System.out.println(new Reserch(gt).ageSearch());
     }
 }
