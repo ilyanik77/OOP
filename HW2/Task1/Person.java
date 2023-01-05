@@ -5,6 +5,9 @@ public class Person {
     public int age;
     private String status;
 
+    public Person(String name, int age, String status) {
+    }
+
     public int getAge() {
         return age;
     }
@@ -42,7 +45,7 @@ public class Person {
     }
 
     public void feedDog (String status, Dog dog) {
-        if (status == "owener") {
+        if (status == "owener" ) {
 
             dog.dogComeIn(dog.getName());
             dog.animalTalk();
