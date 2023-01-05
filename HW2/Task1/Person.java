@@ -6,6 +6,9 @@ public class Person {
     private String status;
 
     public Person(String name, int age, String status) {
+        this.age = age;
+        this.name = name;
+        this.status = status;
     }
 
     public int getAge() {
