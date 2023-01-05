@@ -24,4 +24,9 @@ public class Dog extends Animal implements Eat, Move, AnimalTalk {
 
     }
 
+    public void dogComeIn(String name){
+        System.out.println("Собака " + name + " подошла к хозяину");
+
+    }
+
 }
